@@ -2,6 +2,14 @@ package design;
 
 
 public class SinglyLinkedList {
+    class SinglyNode {
+        int val;
+        SinglyNode next;
+        SinglyNode(int x){
+            val = x;
+        }
+
+    }
 
     int size = 0;
     SinglyNode head = new SinglyNode(0);
